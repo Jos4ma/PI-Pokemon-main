@@ -1,0 +1,177 @@
+.background {
+  background: url("imagenes/pikachuHome.jpeg");
+  width: 100%;
+  height: 1200px;
+  /* display: flex; */
+  /* flex-direction: column;
+  background-size: cover;
+  justify-content: center; */
+  color: aliceblue;
+  top: 0;
+  border: 3px solid black;
+  /* background-color: rgba(0, 0, 0, 0.824); */
+  border-radius: 1px;
+  
+}
+
+/* .background {
+    background: url("imagenes/pikachuHome.jpeg");
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    justify-content: center;
+    
+  } */
+
+  .frame {
+    /* background: url("./wantan.jpg"); */
+    background: linear-gradient(transparent, rgb(205, 202, 50) );
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 45vw; */
+    /* width: 50%;
+    /* height: 65vh; */
+    /* height: 84%;  */
+    width: 50%;
+    height: 80%;
+    justify-content: center;
+    align-items: center;   
+    align-self: center;
+    border: 5px solid rgba(0, 0, 0, 0.735);
+    border-radius: 20px;
+    margin-top: 5%;
+}
+
+.labelLink {
+  margin-right: auto;
+}
+
+.span {
+  /* margin-left: auto; */
+  justify-content: right;
+  margin: auto;
+  font-size: larger;
+  font-family: "Kanit", sans-serif;
+  font-weight: lighter;
+  text-shadow: 3px 3px 3px rgb(176, 136, 19);
+  /* background: rgba(70, 33, 10, 0.64); */
+  text-align: center;
+  width: 100%;
+  height: 6%;
+}
+
+.title_create {
+    /* position: relative; */
+    margin: auto;
+    font-size: larger;
+    color: black;
+    font-family: "Kanit", sans-serif;
+    font-weight: lighter;
+    text-shadow: 3px 3px 3px rgb(176, 136, 19);
+    /* background: rgba(70, 33, 10, 0.64); */
+    text-align: center;
+    width: 100%;
+    height: 5%;
+  }
+
+  .image{
+    width: 240px; 
+    height: 200px;
+    margin-top: 2%;
+    margin-block-end: 3%;
+  }
+
+  .created{
+    margin: 6% 12% 0% 18%;
+  }
+
+  .form {
+    color: rgb(8, 8, 8);
+    height: 100%;
+    padding: 25px 10px;
+    border-bottom: 4px solid transparent;
+    font-style: oblique;
+    font-size: 20px;
+    
+  }
+
+  .inputDiv{
+    display: flex;
+    margin: 20px;
+    align-items: center;
+    text-shadow: 3px 3px 3px rgb(73, 56, 6);
+    text-justify:newspaper;
+  }
+/* para correr las lineas un poco hacia la izquierda */
+.label{
+    font-size: 30px;
+    background: linear-gradient(transparent, rgb(213, 211, 49) );
+    font-weight: bolder;
+    /* list-style-position:outside; */
+    /* margin-top: 30px; */
+    /* margin-right: 35%; */
+    margin-left: auto;
+    /* width: 1000px; */
+    height: 30px;
+  }
+
+  .input{
+    width: 220px;
+    height: 30px;
+    border-radius: 8px;
+    border: 3px solid rgb(52, 40, 4);
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: auto;
+  }
+  
+  .buttonCreate {
+    margin-top: 15px;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px 20px;
+    display: inline-block;
+    width: 100px;
+    height: 70px;
+    /* background: rgba(54, 28, 11, 0.64); */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    position: static;
+    left: 130px;
+    font-size: large;
+    background: rgb(145, 122, 18, 0.5);
+  }
+
+  .buttonCreate:active {
+    transform: scale(0.98);
+    box-shadow: 3px 3px 9px black;
+  }
+
+  .buttonToHome {
+    cursor: pointer;
+    border: none;
+    border-radius: 20px 20px;
+    display: inline-block;
+    width: 150px;
+    height: 45px;
+    background: rgba(149, 147, 21, 0.64);
+    font-family: "Kanit", sans-serif;
+    font-weight: bolder;
+    position: static;
+    left: 130px;
+    justify-content: center;
+    font-size: large;  
+    /* border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    height: 55px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    background-color: rgb(255, 255, 255);
+    font-size: 17px;
+    width: 90%;
+    max-width: 400px; */
+  }

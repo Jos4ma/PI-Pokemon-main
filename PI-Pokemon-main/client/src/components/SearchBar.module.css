@@ -1,0 +1,17 @@
+.btn{
+    background-color: rgb(255, 68, 0);
+    height: 100%;
+    font-size: 17px;
+    border: none;
+    color: white;
+    /* display: flex; */
+    align-items: center;
+}
+
+.input{
+    overflow: none;
+    outline: none;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.678);
+    height: 25px;
+}
